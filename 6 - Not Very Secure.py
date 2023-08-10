@@ -9,10 +9,13 @@
 # Solution
 
 def alphanumeric(password):
+    if password == '':
+        return False
+    
     passw = [*password]
+    
     for char in passw:
         if not char.isalnum():
-            print(char, 'is not alphanumeric')
             return False
         
     return True
