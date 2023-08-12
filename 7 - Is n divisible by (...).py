@@ -18,6 +18,6 @@ def is_divisible(*args):
                 return False
             
     return True
-    
+     
     
 print(is_divisible(8,3,4,2,5))

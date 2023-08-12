@@ -44,3 +44,19 @@
 
 
 
+def sum_of_intervals(intervals):
+    diff = 0
+    sorted_lists = sorted(intervals, key=lambda x:x[0])
+    lowest = sorted_lists[0][0]
+    highest = sorted_lists[0][1]
+    
+    for index, list in enumerate(sorted_lists):
+        if index = 0:
+            print('first loop')
+        elif list[0] < sorted_lists[index - 1]
+            if list[1] > sorted_lists[index - 1]
+                
+            
+        
+            
+    return diff
